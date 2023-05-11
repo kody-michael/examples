@@ -26,6 +26,7 @@ using namespace std::chrono_literals;
  * member function as a callback from the timer. */
 
 class MinimalPublisher : public rclcpp::Node
+//MinimalPublisher클래스가 rclcpp::Node의 상속을 받게 하였다.
 {
 public:
   MinimalPublisher()
